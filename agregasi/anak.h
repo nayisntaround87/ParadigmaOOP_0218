@@ -9,4 +9,9 @@ class anak
     {
         cout << "Anak \"" << nama << "\" ada\n";
     }
-}
+    ~anak()
+    {
+        cout << "Anak \"" << nama << "\" tidak ada\n";
+    }
+};
+#endif
