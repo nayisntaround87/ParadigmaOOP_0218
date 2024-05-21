@@ -12,7 +12,9 @@ class manusia
     {
         cout << name << "hidup\n";
     }
-    ~manusia
-
-        
-}
+    ~manusia() 
+    {
+        cout << name << "mati\n";
+    }   
+};
+#endif
